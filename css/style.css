@@ -15,10 +15,12 @@ html, body {
   padding: 0;
 }
 
-body {
-  transition: right 100ms ease-out;
-  box-shadow: 5px 0px 15px rgba(0, 0, 0, .3);
+.main-container {
+  width: 100%;
+  position: relative;
+  transition: right 150ms ease-out;
   right: 0;
+  margin-top: 3.25rem;
 }
 
 a {
@@ -53,7 +55,6 @@ section {
   align-items: center;
   justify-content: space-between;
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
-  /* box-shadow: 5px 0px 15px rgba(0, 0, 0, .3); */
 }
 
 .name-container {
@@ -108,11 +109,13 @@ section {
 .navigation-menu {
   position: fixed;
   height: 100%;
-  width: 50%;
-  right: 0;
+  width: 10rem;
+  right: -100%;
   top: 0;
   background-color: hsl(240, 60%, 40%);
-  z-index: -1;
+  z-index: 0;
+  margin-top: 3.25rem;
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, .6);
 }
 
 .navigation-menu .link {
@@ -157,6 +160,7 @@ section {
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .language-container {
@@ -221,7 +225,7 @@ footer, .contact-footer {
 /* Portfolio Related */
 
 .portfolio-header {
-  padding: 1rem 0 2rem 0;
+  padding: 1.5rem 0;
 }
 
 .helpful-things, .desktop-buttons-info, .mobile-buttons-info {
@@ -232,8 +236,8 @@ footer, .contact-footer {
 }
 
 .thanks-for-visiting {
-  margin-top: 3.25rem;
   margin-bottom: 1rem;
+  padding: 0;
   color: black;
   line-height: 1.25;
 }
@@ -349,9 +353,6 @@ footer, .contact-footer {
 }
 
 /* Contact Page */
-.contact {
-  padding-top: 3.25rem;
-}
 
 .getting-in-touch {
   color: black;
@@ -708,7 +709,7 @@ input[type="submit"]:hover {
   /* Portfolio */
 
   .portfolio-header {
-    padding: 3rem 0 4rem 0;
+    padding: 3.5rem 0;
   }
 
   .portfolio-site-container {

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <title>Randall Morin | Web Developer</title>
 
     <!-- Google Fonts -->
@@ -67,29 +68,29 @@
         <a href="./contact.php" class="link">Contact Me</a>
       </div>
     </div>
+    <div class="main-container">
+      <section class="success">
+        <h1 class="success-header content-container">Thanks for reaching out.</h1>
+        <p class="success-message content-container">
+          Please allow me 24 hours to get back to you. In the meantime, feel free
+          to look at my <a href='./portfolio.php'>portfolio</a>, or head <a href="./index.html">home</a>.
+        </p>
+      </section>
 
-    <section class="success">
-      <h1 class="success-header content-container">Thanks for reaching out.</h1>
-      <p class="success-message content-container">
-        Please allow me 24 hours to get back to you. In the meantime, feel free
-        to look at my <a href='./portfolio.php'>portfolio</a>, or head <a href="./index.html">home</a>.
-      </p>
-    </section>
-
-    <!-- Footer -->
-    <footer class="success-footer">
-      <p class="thanks">Thanks for visiting!</p>
-      <div class="social-container">
-        <a href="https://www.linkedin.com/in/randall-morin-b6a77b17a/" class="social-icon" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/randallmorin" class="social-icon" target="_blank">
-          <i class="fab fa-github-square"></i>
-        </a>
-      </div>
-      <p class="copyright">&copy; 2019 randallmorin.com</p>
-    </footer>
-
+      <!-- Footer -->
+      <footer class="success-footer">
+        <p class="thanks">Thanks for visiting!</p>
+        <div class="social-container">
+          <a href="https://www.linkedin.com/in/randall-morin-b6a77b17a/" class="social-icon" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/randallmorin" class="social-icon" target="_blank">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </div>
+        <p class="copyright">&copy; 2019 randallmorin.com</p>
+      </footer>
+    </div>
     <script src='./js/jQuery_3.1.1'></script>
     <script src="./js/success-style.js"></script>
     <script src='./js/main.js'></script>
